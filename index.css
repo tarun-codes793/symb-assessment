@@ -144,7 +144,9 @@ color: #95A5A6
     font-style: normal;
 }
 .newsletter input[type=text]{
-    border: none;
+    border: 1px;
+    border-style: solid;
+    border-color: #d6d6d6;
     width: 210px;
     padding-left: 11px;
     padding-top: 10px;
@@ -176,7 +178,7 @@ color: #95A5A6
  border: 2px;
   border-style: solid;
   border-color: #d6d6d6;
-  width: 50%;
+  width: 50.3%;
   height: 120px;
   padding-left: 6px;
   padding-top: 8px;
