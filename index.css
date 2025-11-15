@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
+  
 }
 
 .container{
@@ -17,12 +18,28 @@
     background-color: #3498DB;
 }
 
+.blue{
+    color: #3498DB;
+}
+.icon{
+    font-size: 20px;
+}
+
+.gap-i{
+    column-gap: 20px;
+    padding-top: 20px;
+}
+
 .flex{
     display: flex;
 }
 
+.text-black{
+    color: black;
+}
 .text-large{
-    font-size: 43px;
+    font-size: 40px;
+    line-height: 50px;
 }
 .text-medium{
     font-size: 20px;
@@ -36,7 +53,11 @@
 }
 
 .text-gray{
-color: #A0AEAF;
+color: #95A5A6
+}
+
+.teat-team{
+    color: #b5b5b5;
 }
 
 .my-20{
@@ -57,7 +78,8 @@ color: #A0AEAF;
     flex-direction: column;
 }
 .divide-top{
-     border-top: 1px;
+    border-top: 1px;
+    border-bottom: 0px;
     border-left: 0px;
     border-right: 0px;
     border-style: solid;
@@ -71,7 +93,9 @@ color: #A0AEAF;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+.pb-40{
+    padding-bottom: 40px;
+}
 .padding-card{
     padding: 20px;
 }
@@ -84,6 +108,10 @@ color: #A0AEAF;
 .py-80{
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
 }
 
 .bg-yellow{
@@ -99,31 +127,72 @@ color: #A0AEAF;
     border-radius: 3px;
 }
 
+.contact-btn{
+    border: none; 
+    padding-top: 13px;
+    padding-bottom:13px; 
+    padding-left: 30px; 
+    padding-right: 30px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
 .font-light{
-    font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
 }
-input[type=text]{
+.newsletter input[type=text]{
     border: none;
     width: 210px;
     padding-left: 11px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 17px;
     border-radius: 3px;
     color: black;
 }
 
+.newsletter button{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#contact input[type=text]{
+    border: 2px;
+    border-style: solid;
+    border-color: #d6d6d6;
+    width: 50%;
+    padding-left: 11px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 13px;
+    border-radius: 3px;
+    color: #d6d6d6;
+}
+
+#contact textarea {
+ border: 2px;
+  border-style: solid;
+  border-color: #d6d6d6;
+  width: 50%;
+  height: 120px;
+  padding-left: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #8f8b8b;
+  font-size: 13px;
+}
 .hero-image{
     position: absolute;
     width: 580px;
-    top: 119px;
+    top: 91px;
     right: 200px;
 }
 
 .card-img{
-    width: 80%;
+    width: 70%;
 }
 
 .team-img{
@@ -153,7 +222,12 @@ input[type=text]{
     font-size: 17px;
 }
 
+.padding-all{
+    padding: 20px;
+}
+
 .section-padding{
     padding-top: 200px;
     padding-bottom: 256px
 }
+
